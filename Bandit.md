@@ -39,3 +39,27 @@
 #### Level 6:
 - un: bandit6
 - pw: DXjZPULLxYr17uwoI01bNLQbtFemEgo7
++ find / -user bandit7 -group bandit6 -size 33c 2>/dev/null
++ cat /var/lib/dpkg/info/bandit7.password
+
+#### Level 7:
+- un: bandit7
+- pw: HKBPTKQnIay4Fw76bEy8PVxKEDQRKTzs
++ ls
++ grep "millionth" data.txt
+
+#### Level 8:
+- un: bandit8
+- pw: cvX2JJa4CFALtqS87jk27qwqGhBM9plV
++ ls
++ sort data.txt | uniq -u
+
+#### Level 9:
+- un: bandit9
+- pw: UsvVyFSfZZWbi6wgC7dAFyFuR6jQQUhR
++ ls
++ strings data.txt | grep '^='
+
+#### Level 10:
+- un: bandit10
+- pw: truKLdjsbJ5g7yyJ2X2R0o3a5HQJFuLk
