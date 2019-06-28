@@ -63,3 +63,14 @@
 #### Level 10:
 - un: bandit10
 - pw: truKLdjsbJ5g7yyJ2X2R0o3a5HQJFuLk
++ base64 -d data.txt
+
+#### Level 11:
+- un: bandit11
+- pw: IFukwKGsFW8MOq3IRFqrxE1hxTNEbUPR
++ cat data.txt | tr ‘n-za-mN-ZA-M’ ‘a-zA-Z’
+
+#### Level 12:
+- un: bandit12
+- pw: 5Te8Y4drgCRfCx8ugdwuEX8KFC6k2EUu
+
