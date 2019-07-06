@@ -73,4 +73,29 @@
 #### Level 12:
 - un: bandit12
 - pw: 5Te8Y4drgCRfCx8ugdwuEX8KFC6k2EUu
++ file data.txt
++ mkdir /tmp/qwerty098
++ cd /tmp/qwerty098
++ xxd -r ~/data.txt > datanew.txt
++ file datanew.txt
++ zcat datanew.txt > datanew2
++ file datanew2
++ bzip2 -d datanew2
++ file datanew2.out
++ zcat datanew2.out > datanew3
++ file datanew3
++ tar -xvf datanew3
++ file data5.bin
++ tar -xvf data5.bin
++ file data6.bin
++ bzip2 -d data6.bin
++ file data6.bin.out
++ tar -xvf data6.bin.out
++ file data8.bin
++ zcat data8.bin > datanew4
++ file datanew4
++ cat datanew4
 
+#### Level 13:
+- un: bandit13
+- pw: 8ZjyCRiBWFYkneahHwxCv3wb2a1ORpYL
